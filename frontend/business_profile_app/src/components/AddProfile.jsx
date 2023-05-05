@@ -21,6 +21,7 @@ const AddProfile = () => {
   const [aadhaar_no, setAadhaar_no] = useState("");
   const [pincode, setPincode] = useState("");
 
+
   console.log(profiles);
 
   //Adding profile Data
@@ -72,10 +73,11 @@ const AddProfile = () => {
   }
 
   return (
-    <div>
-      <h1 className="mx-5 my-2.5">Add Business Profile</h1>
+    <div className="bg-gray-900 pt-5">
+      <h1 className="mx-5 font-bold font-sans text-lg text-white">All Business Profiles</h1>
       <div className="flex gap-2.5">
-        <div className="flex flex-col mx-10 my-10 w-[30%] h-full shadow-2xl rounded border-2 px-2.5 py-2.5">
+        <div className="flex flex-col mx-10 my-10 w-[30%] h-full shadow-2xl rounded border-2 px-2.5 py-2.5 bg-gray-300">
+          <h1 className="font-bold font-sans text-lg text-blue-800">Add Business Profile</h1>
           <input
             type="text"
             placeholder="Please Enter name"
