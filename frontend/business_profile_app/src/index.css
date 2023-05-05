@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .inputClass {
+    @apply text-center w-full h-6 my-2;
+  }
+
+  .profiledata {
+    @apply text-center w-full h-9 my-2;
+  }
+}
