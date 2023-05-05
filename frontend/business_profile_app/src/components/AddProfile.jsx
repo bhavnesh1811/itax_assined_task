@@ -147,7 +147,7 @@ const AddProfile = () => {
         <div className="grid grid-cols-2 gap-5 mx-10 my-10 w-[70%] h-full">
           {profiles?.map((el) => (
             <div
-              className="shadow-xl bg-gray-300 rounded px-5 py-5"
+              className="shadow-xl bg-gray-300 rounded px-5 py-5 font-bold font-sans text-lg text-slate-800"
               key={el._id}
             >
               <p className="profiledata">Name :- {el.name}</p>
