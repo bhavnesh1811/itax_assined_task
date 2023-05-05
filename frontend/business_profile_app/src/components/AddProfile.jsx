@@ -74,9 +74,9 @@ const AddProfile = () => {
 
   return (
     <div className="bg-gray-900 pt-5">
-      <h1 className="mx-5 font-bold font-sans text-lg text-white">All Business Profiles</h1>
-      <div className="flex gap-2.5">
-        <div className="flex flex-col mx-10 my-10 w-[30%] h-full shadow-2xl rounded border-2 px-2.5 py-2.5 bg-gray-300">
+      <h1 className="font-bold font-sans text-lg text-white">All Business Profiles</h1>
+      <div className="flex gap-2.5 mobile:flex-col tablet:flex-row">
+        <div className="flex flex-col mx-10 my-10 mobile:w-[80%] tablet:w-[30%] h-full shadow-2xl rounded border-2 px-2.5 py-2.5 bg-gray-300">
           <h1 className="font-bold font-sans text-lg text-blue-800">Add Business Profile</h1>
           <input
             type="text"
@@ -144,7 +144,7 @@ const AddProfile = () => {
             Submit
           </button>
         </div>
-        <div className="grid grid-cols-2 gap-5 mx-10 my-10 w-[70%] h-full">
+        <div className="grid grid-cols-1 laptop:grid-cols-2 gap-5 mx-10 my-10 h-full">
           {profiles?.map((el) => (
             <div
               className="shadow-xl bg-gray-300 rounded px-5 py-5 font-bold font-sans text-lg text-slate-800"
