@@ -68,8 +68,8 @@ const EditProfile = ({
         <div className="fixed inset-0 bg-black bg-opacity-25 backdrop-blur-sm flex items-center justify-center">
           <div className="bg-white p-2 rounded w-[25%]">
             {/* Modal Body */}
-            <p className="text-center text-blue-800 pt-2.5">Edit Profile</p>
-            <div className="p-6 space-y-6">
+            <p className="text-center text-blue-800 pt-1.5">Edit Profile</p>
+            <div className="flex flex-col h-full shadow-2xl rounded border-2 px-2.5 py-2.5 bg-gray-300">
               <input
                 type="text"
                 placeholder="Please Enter name"
